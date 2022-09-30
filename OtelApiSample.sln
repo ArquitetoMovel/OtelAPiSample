@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtelApiSample", "OtelApiSample\OtelApiSample.csproj", "{622AF50B-1A8F-4ACB-9B98-02A755C08BCE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{62BB1045-053E-478B-B982-557ADE84DF71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{622AF50B-1A8F-4ACB-9B98-02A755C08BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622AF50B-1A8F-4ACB-9B98-02A755C08BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622AF50B-1A8F-4ACB-9B98-02A755C08BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622AF50B-1A8F-4ACB-9B98-02A755C08BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62BB1045-053E-478B-B982-557ADE84DF71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62BB1045-053E-478B-B982-557ADE84DF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62BB1045-053E-478B-B982-557ADE84DF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62BB1045-053E-478B-B982-557ADE84DF71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B938A5D3-EDCF-49A5-A61C-23F183C1885E}
+	EndGlobalSection
+EndGlobal

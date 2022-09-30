@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  zipkin:
+    image: openzipkin/zipkin
+    container_name: zipkin-mon
+    ports:
+      - "9411:9411"
+  otelapisample:
+    image: ${DOCKER_REGISTRY-}otelapisample
+    build:
+      context: .
+      dockerfile: OtelApiSample/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5056:80"
+    depends_on:
+      - zipkin
